@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher</title>
+    
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Bootstrap CDN Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <div class="my-5">
+                    <h3 class="text-primary ">Voucher App ( Apply jQuery )</h3>
+                    <p class="text-black-50 mb-5">Bootstrap & jQuery</p>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <h4 class="mb-0">Product List</h4>
+                    <button class="btn btn-primary add-row-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th>Product Name</th>
+                            <th class="text-right">Cost</th>
+                            <th class="text-right">Quantity</th>
+                            <th class="text-right">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4" class="text-center">Total</td>
+                            <td class="text-right">
+                                <h4 class="font-weight-bold mb-0" id="total">0</h4>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="./action.js"></script>
+    
+</body>
+
+
+</html>
